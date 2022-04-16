@@ -1,0 +1,1 @@
+enum ValidateError{isRegistered,notValid}

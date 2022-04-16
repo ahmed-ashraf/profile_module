@@ -34,8 +34,41 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  #  flutter_facebook_login: ^3.0.0
+  #  flutter_twitter_login: ^1.1.0
+  google_sign_in: ^5.2.1
+  firebase_auth: ^3.3.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  json_annotation: ^4.4.0
+  json_serializable: ^6.1.1
+  dio: ^4.0.4
+  device_info: ^2.0.3
+  flutter_bloc: ^8.0.1
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  connectivity: ^3.0.6
+  flutter_svg: ^1.0.0
+  transparent_image: ^2.0.0
+  fluttertoast: ^8.0.8
+  another_flushbar: ^1.10.28
+  pin_code_fields: ^7.3.0
+  flutter_facebook_auth: ^3.5.7
+  package_info: ^2.0.2
+  path_provider: ^2.0.8
+  share_plus: ^3.0.4
+  uuid: ^3.0.5
+  material_design_icons_flutter: 5.0.5955-rc.1
+  flutter_displaymode: ^0.3.2
+  provider: ^6.0.2
+  dartz: ^0.10.1
+  file_picker: ^4.2.7
+  image_picker: ^0.8.4+5
 
 dev_dependencies:
+  build_runner: ^2.1.5
+  hive_generator: ^1.1.1
   flutter_test:
     sdk: flutter
 
@@ -51,12 +84,29 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
+  generate: true
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+    - assets/checked_green.png
+    - assets/facebook.png
+    - assets/google.png
+    - assets/cover.jpg
+    - assets/vine-with-circle.svg
+    - assets/instagram-with-circle.svg
+    - assets/twitter-with-circle.svg
+    - assets/no_data.json
+    - assets/facebook-with-circle.svg
+    - assets/twitter-with-circle2.svg
+    - assets/instagram-with-circle2.svg
+    - assets/premuim.svg
+    - assets/cloud_upload.svg
+    - assets/cancel_upload_file.svg
+    - assets/music_icon.svg
+    - assets/check_circle_black.svg
+    - assets/check_circle_black_2.svg
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
